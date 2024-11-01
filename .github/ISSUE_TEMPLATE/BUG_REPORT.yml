@@ -2,32 +2,32 @@ name: Bug Report
 description: Report a bug in the application
 title: "[BUG] "
 labels: bug
-assignees: ''
+assignees: []  # This is an empty array
 
 body:
   - type: markdown
     attributes:
       value: |
-        **Опишите проблему**
-        Опишите, что именно не так.
+        **Describe the Issue**
+        Please explain what is wrong.
 
   - type: input
     id: steps-to-reproduce
     attributes:
-      label: Шаги для воспроизведения
-      description: "Опишите, как воспроизвести проблему."
-      placeholder: "1. Перейдите на...\n2. Нажмите на...\n3. Ошибка появляется..."
+      label: Steps to Reproduce
+      description: "Describe how to reproduce the issue."
+      placeholder: "1. Go to...\n2. Click on...\n3. The error appears..."
 
   - type: textarea
     id: expected-behavior
     attributes:
-      label: Ожидаемое поведение
-      description: "Опишите, что вы ожидали увидеть."
-      placeholder: "Опишите ожидаемое поведение"
+      label: Expected Behavior
+      description: "Describe what you expected to see."
+      placeholder: "Describe the expected behavior"
 
   - type: textarea
     id: additional-info
     attributes:
-      label: Дополнительная информация
-      description: "Прикрепите любые дополнительные данные, которые могут помочь в решении проблемы."
-      placeholder: "Прикрепите скриншоты, журналы ошибок и другую информацию"
+      label: Additional Information
+      description: "Please provide any additional information that may help in resolving the issue."
+      placeholder: "Attach screenshots, error logs, and other information"
